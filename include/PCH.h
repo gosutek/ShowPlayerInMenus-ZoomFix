@@ -23,7 +23,7 @@
 #	endif
 #endif
 
-#include <magic_enum.hpp>
+#include <magic_enum/magic_enum.hpp>
 
 #include <ShlObj_core.h>
 #include <Windows.h>
