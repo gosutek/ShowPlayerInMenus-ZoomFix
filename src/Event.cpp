@@ -323,6 +323,7 @@ void MenuOpenCloseEventHandler::RotateCamera()
 
 	// collect original values for later
 	m_playerAngleX = player->data.angle.x;
+	m_targetZoomOffset = thirdState->targetZoomOffset;
 	m_freeRotation = thirdState->freeRotation;
 	g_freeRotation = m_freeRotation;
 	m_posOffsetExpected = thirdState->posOffsetExpected;
